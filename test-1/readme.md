@@ -1,5 +1,5 @@
 >[!WARNING]
->Take the timing results with a 50lb bag of industrial salt. Rust should (almost) always be faster than C#.
+>Take the timing results with a 50lb bag of industrial salt. Rust should always be faster than C#.
 
 ## Round 1
 | | Time | Output Size |
