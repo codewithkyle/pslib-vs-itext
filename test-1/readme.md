@@ -13,6 +13,8 @@
 | pslib | 1.3s | 54mb | 12mb | 9.5mb |
 | itext | 2.9s | 10mb | 10mb | 10mb |
 
+> **Note:** files compressed with maximum compression ratios.
+
 #### Improvements
 - Optimized pslib fill/stroke (coverted to procedures).
 - Reduced whitespace.
@@ -24,4 +26,3 @@ It's not until we compress the PostScript file with Brotli that the PostScript f
 
 I also think it's interesting that PDFs cannot be compressed by both gzip and brotli.
 
-> **Note:** files compressed with `-q 11` (highest compression)
