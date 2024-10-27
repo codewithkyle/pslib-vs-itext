@@ -18,8 +18,10 @@
 - Reduced whitespace.
 
 #### Notes
-I think the overall size of PostScript files will alway be larger do the the compression offered in PDF (expected) when we gzip both files PDF does not change while the PostScript files are only slightly larger.
+I think the overall size of PostScript files will alway be larger due to the compression offered in PDF (expected?). When we gzip both files PDF does not change while the PostScript files are only slightly larger.
 
 It's not until we compress the PostScript file with Brotli that the PostScript file becomes smaller than the PDF version.
+
+I also think it's interesting that PDFs cannot be compressed by both gzip and brotli.
 
 > **Note:** files compressed with `-q 11` (highest compression)
