@@ -8,11 +8,14 @@
 | itext | 2.95s | 10mb |
 
 ## Round 2
-| | Time | Output Size |
-| - | - | - |
-| pslib | 1.3s | 54mb |
-| itext | 2.9s | 10mb |
+| | Time | Output Size | gzip |
+| - | - | - | - |
+| pslib | 1.3s | 54mb | 12mb |
+| itext | 2.9s | 10mb | 10mb |
 
 **Improvements**
 - Optimized pslib fill/stroke (coverted to procedures).
 - Reduced whitespace.
+
+**Notes**
+I think the overall size of PostScript files will alway be larger do the the compression offered in PDF (expected) when we gzip both files PDF does not change while the PostScript files are only slightly larger.
